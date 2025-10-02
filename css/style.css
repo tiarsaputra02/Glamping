@@ -32,19 +32,12 @@ body{
 }
 .icon{
   display:flex;
-  flex-direction:column;
-  padding:10px;
-  background:#6F4E37;
-  box-shadow:2px 2px white ;
+  margin-left:30px
+  height:auto;
 }
-.icon .icon-link{
-  font-size:10px;
-  text-decoration:none;
-  color:white;
-  margin:2px 0;
-  font-weight:600;
-  font-family:'Playfair Display',serif;
-
+.icon img{
+  height:80px;
+  width:80px;
 }
 .navbar-menu{
   position:fixed;
@@ -309,7 +302,7 @@ body{
 
 .galery-item img {
   width: 100%;
-  padding:25px;
+  margin-bottom:30px;
   height:500px;
   object-fit:cover;
   display: block;
@@ -535,8 +528,6 @@ body{
     display: none;
   }
   .icon {
-    padding:15px;
-    box-shadow:4px 4px white;
   }
   .navbar-menu{
     display:flex;
@@ -699,6 +690,7 @@ body{
   }
   .galery-item img {
     height: 600px;
+    margin-left:10px;
   }
  
 }
